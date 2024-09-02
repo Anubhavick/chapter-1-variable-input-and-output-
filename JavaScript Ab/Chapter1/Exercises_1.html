@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title></title>
+</head>
+
+<!-- 
+Write a JavaScript program that will ask the user for his or her name, last name,
+and middle initial. Return them back in the order of last name, first name, and middle intial
+then in first name, middle initial, and last name format.
+-->
+<h1>Excercise-1</h1>
+
+<script>
+
+  var firstName;
+  var greeting;
+  var lastName;
+  var greetingSec;
+  var lastQue;
+  var nameSize;
+
+
+  firstName = prompt("what is your first name?");
+  greeting = "Hi " + firstName + " !!";
+  alert(greeting);
+
+  lastName = prompt("so " + firstName + " what's your last name");
+  greetingSec = "welcome " + firstName + (lastName) + " to our webpage ??";
+  alert(greetingSec);
+
+  lastQue = ("so " + (firstName) + lastName + " what u are looking for");
+  alert(lastQue);
+
+  nameSize = "do you know there are " + firstName.length + " letter in you name";
+  alert(nameSize);
+
+</script>
+
+<body>
+
+</body>
+
+</html>

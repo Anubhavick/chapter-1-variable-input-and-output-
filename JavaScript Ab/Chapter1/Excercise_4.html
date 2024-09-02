@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title></title>
+</head>
+
+<!-- 
+have a program that ask  the user for his or her name and shoe size. determine the user's lucky number 
+by multiplying the number of letter in his or her name by the shoes size. return the result.
+-->
+
+<h1>Excercise-4</h1>
+
+<script>
+var userName;
+var shoeSize;
+var lucky;
+var luckyNo;
+
+
+
+userName = prompt("what is your name");
+
+shoeSize = prompt("what is your shoe size");
+shoeSize = eval(shoeSize);
+
+lucky = shoeSize + userName.length;
+console.log(lucky);
+
+luckyNo = "here's your lucky number " + lucky;
+alert(luckyNo);
+
+</script>
+
+<body>
+
+</body>
+
+</html>
